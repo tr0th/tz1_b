@@ -1,0 +1,11 @@
+<h1>Change contact</h1>
+
+<form name="change_contact" method=POST action="change_contact">
+    <label>ID: <input name="id" type="text" value=""></label><br><br>
+    <label>Name: <input name="name" type="text" value=""></label><br><br>
+    <label>Surname: <input name="surname" type="text" value=""></label><br><br>
+    <label>Phone: <input name="phone" type="text" value=""></label><br><br>
+    <input type="submit" value="Change">
+</form>
+
+<a href="/">Back to the main page</a>

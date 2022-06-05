@@ -1,0 +1,16 @@
+<h1>AWESOME PHONE BOOK</h1>
+<h2>Choose one of action</h2>
+<ul>
+    <li>
+        <a href="/phone_book/add_contact">To add contact</a>
+    </li>
+    <li>
+        <a href="/phone_book/change_contact">To change contact</a>
+    </li>
+    <li>
+        <a href="/phone_book/delete_contact">To delete contact</a>
+    </li>
+    <li>
+        <a href="/phone_book/show_contacts">To show all contacts</a>
+    </li>
+</ul>

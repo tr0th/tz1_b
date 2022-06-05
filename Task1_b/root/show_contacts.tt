@@ -1,0 +1,20 @@
+<h1>List of contacts</h1>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Phone number</th>
+    </tr>
+    [% WHILE (contact = contacts.next) %]
+    <tr>
+            <td>[% contact.contactid %]</td> 
+            <td>[% contact.name %]</td> 
+            <td>[% contact.surname %]</td> 
+            <td/>[% contact.phone %]</td>
+    </tr>
+    [% END %]
+</table>
+<br>
+<a href="/">Back to the main page</a>

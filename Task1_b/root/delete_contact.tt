@@ -1,0 +1,7 @@
+<h1>Delete contact</h1>
+<form name="delete_contact" method=POST action="delete_contact">
+    <label>ID: <input type="text" name="id" value=""></label>
+    <input type="submit" value="Delete">
+</form>
+
+<a href="/">Back to the main page</a>

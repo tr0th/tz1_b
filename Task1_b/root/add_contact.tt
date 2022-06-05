@@ -1,0 +1,10 @@
+<h1>Add new contact</h1>
+
+<form name="add_contact" method=POST action="add_contact">
+    <label>Name: <input type="text" name="name"></label><br><br>
+    <label>Surname: <input type="text" name="surname"></label><br><br>
+    <label>Phone: <input type="text" name="phone"></label><br><br>
+    <input type="submit" value="Add">
+</form>
+
+<a href="/">To the main page</a>
